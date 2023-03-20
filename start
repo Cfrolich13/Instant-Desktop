@@ -9,9 +9,9 @@ mkdir -p $HOME/Desktop
 cp $REPO_DIR/*.desktop $HOME/Desktop/
 
 #Set VNC resolution
-xrandr --newmode "1920x1055_60.00"  168.00  1920 2040 2240 2560  1055 1058 1068 1095 -hsync +vsync
-xrandr --addmode VNC-0 1920x1055_60.00
-xrandr --output VNC-0 --mode 1920x1055_60.00
+#xrandr --newmode "1920x1055_60.00"  168.00  1920 2040 2240 2560  1055 1058 1068 1095 -hsync +vsync
+#xrandr --addmode VNC-0 1920x1055_60.00
+#xrandr --output VNC-0 --mode 1920x1055_60.00
 
 #Execute
 exec "$@"

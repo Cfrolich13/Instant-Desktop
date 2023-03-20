@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Firefox
+Exec=firefox
+Icon=/usr/share/icons/elementary-xfce/apps/16/firefox.png

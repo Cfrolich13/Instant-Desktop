@@ -7,6 +7,7 @@ mkdir -p $HOME/Desktop
 # In JupyterHubs, $HOME in build time is not available during runtime
 # as $HOME is usually a persistent directory mounted per user
 cp $REPO_DIR/*.desktop $HOME/Desktop/
+cp $REPO_DIR/config $HOME/.vnc/
 
 #Set VNC resolution
 #xrandr --newmode "1920x1055_60.00"  168.00  1920 2040 2240 2560  1055 1058 1068 1095 -hsync +vsync

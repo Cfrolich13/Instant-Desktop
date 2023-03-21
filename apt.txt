@@ -11,3 +11,6 @@ firefox
 
 # Text editor
 gedit
+
+# XFCE Theme
+arc-theme

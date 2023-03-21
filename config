@@ -4,6 +4,6 @@
 ##
 # securitytypes=vncauth,tlsvnc
 # desktop=sandbox
-geometry=1920x1080
+geometry=1920x1055
 # localhost
 # alwaysshared

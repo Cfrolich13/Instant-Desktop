@@ -9,7 +9,7 @@ mkdir -p $HOME/Desktop
 echo "Copying desktop files..."
 cp $REPO_DIR/*.desktop $HOME/Desktop/
 echo "Copying config files..."
-mkdir -p &HOME/.vnc/
+mkdir -p $HOME/.vnc/
 cp $REPO_DIR/config $HOME/.vnc/
 
 #Set VNC resolution

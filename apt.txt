@@ -10,4 +10,4 @@ xfce4
 firefox
 
 # Text editor
-geany
+gedit

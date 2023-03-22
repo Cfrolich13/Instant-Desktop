@@ -76,3 +76,6 @@ of your repo want to see the application, not instructions on how to setup the r
 
 Inspriation to make this particular template repository comes from conversation
 with my friend [Sanjay Bhangar](https://twitter.com/sanjaybhangar).
+
+
+Wallpaper by Simon Berger from [Pexels](https://www.pexels.com/photo/silhouette-of-mountains-1323550/).

@@ -1,7 +1,6 @@
 # Baseline packages to get X working
 dbus-x11
 xorg
-xubuntu-icon-theme
 
 # Desktop environment so people can navigate
 xfce4
@@ -11,6 +10,3 @@ firefox
 
 # Text editor
 gedit
-
-# XFCE Theme
-arc-theme

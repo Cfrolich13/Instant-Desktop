@@ -1,22 +1,13 @@
 #!/bin/bash
 set -euo pipefail
-echo "Creating desktop..."
 mkdir -p $HOME/Desktop
 
 # Copy desktop files over on container start rather than on postBuild
 # In JupyterHubs, $HOME in build time is not available during runtime
 # as $HOME is usually a persistent directory mounted per user
-echo "Copying desktop files..."
 cp $REPO_DIR/*.desktop $HOME/Desktop/
-echo "Copying config files..."
 mkdir -p $HOME/.vnc/
 cp $REPO_DIR/config $HOME/.vnc/
 
-#Set VNC resolution
-#xrandr --newmode "1920x1055_60.00"  168.00  1920 2040 2240 2560  1055 1058 1068 1095 -hsync +vsync
-#xrandr --addmode VNC-0 1920x1055_60.00
-#xrandr --output VNC-0 --mode 1920x1055_60.00
-
 #Execute
-echo "Done."
 exec "$@"

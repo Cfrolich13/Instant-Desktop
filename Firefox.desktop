@@ -3,4 +3,4 @@ Version=1.0
 Type=Application
 Name=Firefox
 Exec=firefox
-Icon=/usr/share/icons/elementary-xfce/apps/128/firefox.png
+Icon=firefox

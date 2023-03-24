@@ -10,3 +10,6 @@ firefox
 
 # Text editor
 gedit
+
+# Some theming
+gtk2-engines-murrine

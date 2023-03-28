@@ -8,8 +8,9 @@ mkdir -p $HOME/Desktop
 cp $REPO_DIR/*.desktop $HOME/Desktop/
 mkdir -p $HOME/.vnc/
 cp $REPO_DIR/config $HOME/.vnc/
-chmod +x $HOME/setWallpaper.sh
-./$HOME/setWallpaper.sh
+cp $REPO_DIR/Wallpaper $HOME/
+#Set wallpaper
+xfconf-query -c xfce4-desktop -p  /backdrop/screen0/monitorVNC-0/workspace0/last-image -s $HOME/Wallpaper/mountainsWallpaper.png
 
 #Execute
 exec "$@"

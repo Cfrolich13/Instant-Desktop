@@ -5,11 +5,11 @@ mkdir -p $HOME/Desktop
 # Copy desktop files over on container start rather than on postBuild
 # In JupyterHubs, $HOME in build time is not available during runtime
 # as $HOME is usually a persistent directory mounted per user
-cp $REPO_DIR/*.desktop $HOME/Desktop/
+cp $REPO_DIR/Firefox.desktop $HOME/Desktop/
 mkdir -p $HOME/.vnc/
 cp $REPO_DIR/config $HOME/.vnc/
-chmod +x $HOME/setWallpaper.sh
-./$HOME/setWallpaper.sh
+mkdir -p $HOME/.config/autostart/
+cp $REPO_DIR/wallpaper.desktop $HOME/.config/autostart/
 
 #Execute
 exec "$@"

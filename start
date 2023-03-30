@@ -10,6 +10,7 @@ mkdir -p $HOME/.vnc/
 cp $REPO_DIR/config $HOME/.vnc/
 mkdir -p $HOME/.config/autostart/
 cp $REPO_DIR/wallpaper.desktop $HOME/.config/autostart/
+cp $REPO_DIR/xfce4-panel.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 # Grant executable permissions to wallpaper script
 chmod +x /home/jovyan/setWallpaper.sh

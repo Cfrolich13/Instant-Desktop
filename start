@@ -11,5 +11,8 @@ cp $REPO_DIR/config $HOME/.vnc/
 mkdir -p $HOME/.config/autostart/
 cp $REPO_DIR/wallpaper.desktop $HOME/.config/autostart/
 
-#Execute
+# Grant executable permissions to wallpaper script
+chmod +x /home/jovyan/setWallpaper.sh
+
+# Execute
 exec "$@"

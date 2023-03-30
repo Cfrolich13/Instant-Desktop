@@ -2,4 +2,4 @@
 Version=1.0
 Type=Application
 Name=Wallpaper
-Exec=/home/jovyan/setWallpaper.sh
+Exec=$HOME/setWallpaper.sh

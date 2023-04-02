@@ -1,0 +1,5 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Panel
+Exec=/home/jovyan/setPanel.sh

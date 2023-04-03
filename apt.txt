@@ -13,3 +13,7 @@ gedit
 
 # Some theming
 gtk2-engines-murrine
+
+
+#Something that does something
+xdotool

@@ -1,5 +1,6 @@
 #If the script doesn't have what it takes, give up and run!
 set -e
+mkdir -p $HOME/Downloads
 #Downloads theme from the lovely guthib
 curl -o '/home/jovyan/Downloads/WhiteSur-Dark-solid-42-0.tar.xz'  https://raw.githubusercontent.com/vinceliuice/WhiteSur-gtk-theme/master/release/WhiteSur-Light-solid-42-0.tar.xz
 #Extracts theme to themes folder to install

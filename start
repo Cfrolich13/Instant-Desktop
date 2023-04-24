@@ -11,10 +11,12 @@ cp $REPO_DIR/config $HOME/.vnc/
 mkdir -p $HOME/.config/autostart/
 cp $REPO_DIR/wallpaper.desktop $HOME/.config/autostart/
 cp $REPO_DIR/panel.desktop $HOME/.config/autostart/
+cp $REPO_DIR/theme.desktop $HOME/.config/autostart/
 
 # Grant executable permissions to startup scripts
 chmod +x /home/jovyan/setWallpaper.sh
 chmod +x /home/jovyan/setPanel.sh
+chmod +x /home/jovyan/setTheme.sh
 
 # Execute
 exec "$@"

@@ -8,4 +8,5 @@ sleep 5
 #Reload!
 pkill firefox
 sleep 5
+#Escape!
 exit

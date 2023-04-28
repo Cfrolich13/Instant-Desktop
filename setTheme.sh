@@ -10,7 +10,7 @@ curl -L -o '/home/jovyan/Downloads/WhiteSur-Dark-44-0.tar.xz'  https://raw.githu
 git clone https://github.com/bikass/kora.git
 #Installs themes
 tar -xf '/home/jovyan/Downloads/WhiteSur-Dark-44-0.tar.xz' -C '/home/jovyan/.themes'
-cp /home/jovyan/kora/kora /home/jovyan/.local/share/icons
+cp -r /home/jovyan/kora/kora /home/jovyan/.local/share/icons
 #At last, the transformation is complete! Once the theme is set, we'll be unstoppable!!!!
 xfconf-query -c xsettings -p /Net/ThemeName     -s WhiteSur-Dark
 xfconf-query -c xfwm4     -p /general/theme     -s WhiteSur-Dark

@@ -14,4 +14,4 @@ cp -r /home/jovyan/kora/kora /home/jovyan/.local/share/icons
 #At last, the transformation is complete! Once the theme is set, we'll be unstoppable!!!!
 xfconf-query -c xsettings -p /Net/ThemeName     -s WhiteSur-Dark
 xfconf-query -c xfwm4     -p /general/theme     -s WhiteSur-Dark
-xfconf-query -c xsettings -p /Net/IconThemeName -s Kora
+xfconf-query -c xsettings -p /Net/IconThemeName -s kora

@@ -10,8 +10,6 @@ xfconf-query -c xfwm4 -p /general/button_layout -s "CHM|"
 #   3
 #   2
 #   1
-#Sets temporary IFS variable to avoid too much destruction
-TEMP=$IFS
 #Sets original bottom panel layout to variable
 PLUGIN_IDS=$(xfconf-query -c xfce4-panel -p /panels/panel-2/plugin-ids| grep -v "Value is an\|^$")
 #Changes IFS to newline
@@ -19,7 +17,7 @@ IFS=$'\n'
 #Converts plugin id variable from string to array
 PLUGIN_IDS=($PLUGIN_IDS)
 #Resets IFS
-IFS=$TEMP
+unset IFS
 #Sets each array value to its own variable because I don't feel like typing "{PLUGIN_IDS[#]}" every time I need to use it
 ID1=${PLUGIN_IDS[0]}
 ID2=${PLUGIN_IDS[1]}

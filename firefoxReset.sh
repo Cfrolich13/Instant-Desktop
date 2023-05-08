@@ -1,10 +1,10 @@
 #!/bin/bash
 #Ready!
-sleep 10
+sleep 5
 #Fire!
 firefox &
 #Hit!
-sleep 5
+sleep 7
 #Reload!
 pkill firefox
 sleep 5

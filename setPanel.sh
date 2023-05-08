@@ -87,3 +87,4 @@ xfconf-query -c xfce4-panel -p /panels/panel-2/plugin-ids -rR
 
 xfconf-query -c xfce4-panel -p /panels/panel-2/plugin-ids -n -t int -s $NEXT_PLUGIN -a
 xfce4-panel -r
+./home/jovyan/firefoxReset.sh

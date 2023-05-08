@@ -1,6 +1,6 @@
 #!/bin/bash
 #Ready!
-sleep 5
+sleep 7
 #Fire!
 firefox &
 #Hit!

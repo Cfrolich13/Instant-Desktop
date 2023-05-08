@@ -2,6 +2,12 @@
 set -euo pipefail
 mkdir -p $HOME/Desktop
 
+# Grant executable permissions to startup scripts
+chmod +x /home/jovyan/setPanel.sh
+chmod +x /home/jovyan/setTheme.sh
+chmod +x /home/jovyan/firefoxReset.sh
+chmod +x /home/jovyan/setWallpaper.sh
+
 # Copy desktop files over on container start rather than on postBuild
 # In JupyterHubs, $HOME in build time is not available during runtime
 # as $HOME is usually a persistent directory mounted per user
@@ -15,11 +21,7 @@ cp $REPO_DIR/firefoxSet.desktop $HOME/.config/autostart/
 cp $REPO_DIR/wallpaper.desktop $HOME/.config/autostart/
 
 
-# Grant executable permissions to startup scripts
-chmod +x /home/jovyan/setPanel.sh
-chmod +x /home/jovyan/setTheme.sh
-chmod +x /home/jovyan/firefoxReset.sh
-chmod +x /home/jovyan/setWallpaper.sh
+
 
 
 # Execute

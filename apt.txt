@@ -17,3 +17,6 @@ gtk2-engines-murrine
 
 #Something that does something
 xdotool
+
+#Apparently, this wasn't pre-installed
+zip

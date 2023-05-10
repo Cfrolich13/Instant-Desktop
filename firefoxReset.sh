@@ -1,12 +1,14 @@
 #!/bin/bash
 #Ready!
-sleep 7
+#sleep 7
 #Fire!
-firefox &
+#firefox &
 #Hit!
-sleep 7
+#sleep 7
 #Reload!
-pkill firefox
-sleep 5
+#pkill firefox
+#sleep 5
 #Escape!
-exit
+#exit
+
+#New code (incomplete)

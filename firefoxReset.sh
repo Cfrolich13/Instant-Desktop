@@ -12,3 +12,4 @@ sleep 5
 exit
 
 #New code (incomplete)
+unzip '/home/jovyan/firefoxconfig.zip'

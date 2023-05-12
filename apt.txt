@@ -20,4 +20,4 @@ xdotool
 
 #Apparently, these weren't pre-installed
 zip
-notify-send
+libnotify-bin

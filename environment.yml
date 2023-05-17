@@ -1,6 +1,7 @@
 channels:
   - conda-forge
 dependencies:
+  - python=3.11.3
   - websockify
   - pip
   - pip:

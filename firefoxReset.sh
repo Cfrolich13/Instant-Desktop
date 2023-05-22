@@ -1,15 +1,15 @@
 #!/bin/bash
 #Ready!
-sleep 1
+#sleep 1
 #Fire!
-firefox &
+#firefox &
 #Hit!
-sleep 1
+#sleep 1
 #Reload!
-pkill firefox
+#pkill firefox
 sleep 5
 #Escape!
-exit
+#exit
 
 #New code (incomplete)
 unzip '/home/jovyan/firefoxconfig.zip'

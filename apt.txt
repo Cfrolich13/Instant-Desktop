@@ -21,3 +21,6 @@ xdotool
 #Apparently, these weren't pre-installed
 zip
 libnotify-bin
+
+# install more
+flatpak

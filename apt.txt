@@ -23,4 +23,5 @@ zip
 libnotify-bin
 
 # install more
-flatpak
+default-jre
+maven
